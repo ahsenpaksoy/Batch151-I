@@ -49,7 +49,7 @@ public class Variables01 {
         //byte data type : tam sayilar icindir. hafizada 1 byte yer kaplar.
         //byte: -128 den +127 ye kadar tamsayi degerleri kullanilir.
         //ornek 4 : byte data type nda ogrenci yasi icin bir variable olusturun ve deger atayin.
-        //byte studentAge = 30;
+        byte studentAge = 30;
 
         //short data type : tam sayilar icindir.hafizada 2 byte yer kaplar.
         //short : -32768 ile 32767 arasindaki tamsayilar icin kullanilir.

@@ -45,7 +45,7 @@ public class WrapperClass {
         char initial = 'T';
         Character initialWrapper = initial;
 
-        //ii) Wrapper Boolean i primitive boolean aceviriniz(Unboxing)
+        //ii) Wrapper Boolean i primitive boolean a ceviriniz(Unboxing)
         Boolean isOld = true;
         boolean isOldpr = isOld;
 
