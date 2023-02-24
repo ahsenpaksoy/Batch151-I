@@ -1,4 +1,4 @@
-package introduction.day01variables.day04scannerwrapperoperators;
+package introduction.day04scannerwrapperoperators;
 
 public class WrapperClass {
     public static void main(String[] args) {

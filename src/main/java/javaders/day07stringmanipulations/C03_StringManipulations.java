@@ -1,2 +1,62 @@
-package javaders.day07stringmanipulations;public class C03_StringManipulations {
+package javaders.day07stringmanipulations;
+
+import java.util.Scanner;
+
+public class C03_StringManipulations {
+    public static void main(String[] args) {
+
+        /*
+        Asagidaki kurallara gore kullanicinin girdigi password'u kontrol ediniz
+
+        i) En az 8 karakterden olussun
+        ii)Password space icermesin
+        iii)En az 1 tane buyuk harf olsun
+        iv) En az 1 tane kucuk harf olsun
+        v) En az 1 tane sembol olsun
+        vi) En az 1 tanede rakam olsun
+         */
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lutfen passswordunuzu i) En az 8 karakterden olussun\n" +
+                "        ii)Password space icermesin\n" +
+                "        iii)En az 1 tane buyuk harf olsun\n" +
+                "        iv) En az 1 tane kucuk harf olsun\n" +
+                "        v) En az 1 tane sembol olsun\n" +
+                "        vi) En az 1 tanede rakam olsun \nuygun olarak giriniz");
+
+        String pwd = input.nextLine();
+
+        //i) En az 8 karakterden olussun
+        // boolean first =pwd.length()>=8; // daha uzun surede calisir
+         boolean first = pwd.length()>7;
+
+        //ii)Password space icermesin
+        boolean second = !pwd.contains(" ");
+
+        //iii)En az 1 tane buyuk harf olsun
+        boolean third = pwd.replaceAll("[^A-Z]","").length()>0;
+
+        //iv) En az 1 tane kucuk harf olsun
+        boolean fourth = pwd.replaceAll("[^a-z]","").length()>0;
+
+        // Methodlari yan yana ayni satirda yazmaya Method Chain denir
+
+        //v) En az 1 tane sembol olsun
+        boolean fifth = pwd.replaceAll("[a-zA-Z0-9]","").length()>0;
+
+        //vi) En az 1 tanede rakam olsun
+        boolean sixth = pwd.replaceAll("[^0-9]","").length()>0;
+
+        boolean result = first && second && third && fourth && fifth && sixth;
+        System.out.println("result = " + result);
+
+        if(result){
+            System.out.println("Password'unuz gecerli...");
+        }else{
+            System.out.println("Password'unuz gecerli degildir...");
+        }
+
+
+
+    }
 }

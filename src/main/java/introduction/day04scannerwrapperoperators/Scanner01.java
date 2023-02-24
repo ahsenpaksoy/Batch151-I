@@ -1,4 +1,4 @@
-package introduction.day01variables.day04scannerwrapperoperators;
+package introduction.day04scannerwrapperoperators;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package introduction.day01variables;
+package introduction;
 
 public class Variables01 {
     public static void main(String[] args) {

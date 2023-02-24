@@ -2,16 +2,17 @@ package javaders.day03methodcreationscanner;
 
 import java.util.Scanner;
 
-public class C02_Scanner {
+public class C01_Scanner {
     public static void main(String[] args) {
 
         /*
         Kullanicidan data almak icin Scanner class indan scan/input/scanner objesi olustururuz.
+        Objeyi new keyword uyle olustururuz.
         Bu sekilde kullaniciyi yonlendirerek gerekli datayi elde ederiz.
          */
 
         //1. Adim Object olusturma
-        //Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         //2. Adim kullaniciya ne yapacagini soyluyoruz
         //System.out.println("Lutfen cinsiyetinizi giriniz K/E seklinde");
@@ -21,6 +22,14 @@ public class C02_Scanner {
 
         //4. Adim ekranda gorebilmek ve kullanicinin da verdigi bilgileri teyit edebilmesi icin yazdiriyoruz
         //System.out.println("cinsiyet = " + cinsiyet);
+
+        System.out.println("Lutfen adinizi giriniz");
+        //String isim = input.next();
+        input.nextLine();  // dummy atildi satir atlamasi yapmamasi icin
+        String name = input.nextLine();  // tolga mete
+
+        //System.out.println("isim = " + isim);
+        //System.out.println("name = " + name);
 
 
 
@@ -53,6 +62,8 @@ public class C02_Scanner {
         System.out.println("gender : " + gender + "\nisim : " + isim + "\nmemleket : "
                 + memleket + "\nyas : " + yas + "\nboy : " + boy + "\nseviyorMu : " + seviyorMu + "\nmaas : " + maas);
 
+
+        
 
 
     }

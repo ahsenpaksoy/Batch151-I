@@ -1,4 +1,4 @@
-package introduction.day01variables.day03scanner;
+package introduction.day03scanner;
 
 import java.util.Scanner;
 //javanin util library sinden scanner class import edildi demektir.

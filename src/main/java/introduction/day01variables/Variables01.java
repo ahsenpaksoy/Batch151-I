@@ -1,6 +1,6 @@
 package introduction.day01variables;
 
-public class Variables011 {
+public class Variables01 {
 
     public static void main(String[] args) {
         //java bu satiri okumaz. Kendimize veya baskasina aciklamadir.

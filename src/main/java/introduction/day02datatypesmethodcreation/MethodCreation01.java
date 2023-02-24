@@ -1,4 +1,4 @@
-package introduction.day01variables.day02datatypesmethodcreation;
+package introduction.day02datatypesmethodcreation;
 
 public class MethodCreation01 {
     /*

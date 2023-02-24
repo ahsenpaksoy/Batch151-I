@@ -1,4 +1,4 @@
-package introduction.day01variables.day03scanner;
+package introduction.day03scanner;
 
 public class Student {
 
