@@ -6,7 +6,7 @@ public class C03_TypeCasting {
             /*
 
     Numeric Data Type'larinin birbirine donusturulmesine Type Casting denir
-    Numeric Data Type'lari byyte<short<int<long<float<double
+    Numeric Data Type'lari byte<short<int<long<float<double
 
     Kucuk Data Type'larinin Buyuk Data typelarina donusturulmesine
     "Auto Widening"(Otomatik Genisletme) denir ==> Kucuk Kutunun Buyuk Kutu

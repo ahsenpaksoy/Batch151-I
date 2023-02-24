@@ -40,7 +40,7 @@ public class C02_StringManipulations {
         String s2 = s.replaceAll("[a-zA-Z0-9]","@");
         System.out.println("s2 = " + s2);
 
-        // Ex : s String indeki tum speceler disindaki karakterleri "+" ya ceviriniz
+        // Ex : s String indeki tum spaceler disindaki karakterleri "+" ya ceviriniz
         String s3 = s.replaceAll("[^ ]","+");
         System.out.println("s3 = " + s3);
 

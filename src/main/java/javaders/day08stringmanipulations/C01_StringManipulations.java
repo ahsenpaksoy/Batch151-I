@@ -36,6 +36,8 @@ public class C01_StringManipulations {
 
         Double totalPrice = Double.valueOf(tv2) + Double.valueOf(laptop2);
         System.out.println("totalPrice = " + totalPrice);//899.98
+        System.out.println(Double.valueOf(tv2));
+
 
         /*
         valuOf() String olan bir datayi sayisal bir degere yani
@@ -50,7 +52,6 @@ public class C01_StringManipulations {
         char first = tamIsim.trim().toUpperCase().charAt(0);
         char second = tamIsim.trim().toUpperCase().split(" ")[1].charAt(0);
         System.out.println("first + second = " + first + second);// MF
-
 
 
     }

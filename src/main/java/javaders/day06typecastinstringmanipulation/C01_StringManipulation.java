@@ -21,8 +21,10 @@ public class C01_StringManipulation {
 
         // a String indeki bastan ikinci ve sondan ikinci karakteri aliniz ve yan yana yazdiriniz
         char firstChar = a.charAt(1);
-        char lastSecondtChar = a.charAt(20);
-        System.out.println("firstChar + lastSecondtChar = " + firstChar + lastSecondtChar);
+        System.out.println("firstChar = " + firstChar);
+        char lastSecondChar = a.charAt(20);
+        System.out.println("lastSecondChar = " + lastSecondChar);
+        System.out.println("firstChar + lastSecondChar = " + firstChar + lastSecondChar);
 
         //**************** length() **********************\\
         // a String inde bulunan karakter seyisini bulunuz

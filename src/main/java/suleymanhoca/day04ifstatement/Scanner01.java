@@ -13,7 +13,7 @@ public class Scanner01 {
         Scanner input = new Scanner(System.in);
 
         // 1. yol
-        System.out.println("Lutfen ilk isminizi giriniz...");
+        System.out.println("Lutfen ilk isminizi giriniz...");  // Toplu comment icin  (ctrl + <> tabi )
         String ilkIsim = input.next();
         System.out.println("Orta isminizi giriniz...");
         String ortaIsim = input.next();
@@ -24,6 +24,7 @@ public class Scanner01 {
         System.out.println(ilkIsim + " " + ortaIsim + " " + soyIsim);
         System.out.println(kimlikNo);
 
+
         // 2. yol
         System.out.println("Ilk, orta, soy isminizi ve kimlik numaranizi giriniz...");
         String ilk = input.next();
@@ -32,11 +33,15 @@ public class Scanner01 {
         String kimlik = input.next();
 
         System.out.println(ilk + " " + orta + " " + soy);
-        System.out.println(kimlikNo);
+        System.out.println(kimlik);
 
         // 3. yol
         System.out.println("Ilk, orta ve soy isminizi giriniz...");
         String tamIsim = input.nextLine();
+        System.out.println(tamIsim);
+        System.out.println("Kimlik numaranizi giriniz");
+        String kimlikNumarasi = input.next();
+        System.out.println(kimlikNumarasi);
 
 
 

@@ -10,7 +10,7 @@ public class C02_AsciiValue {
            char karakterin hem sayisal deger barindirir + hem de resim karakteri barindirir
            boolean numeric olmayan Data Type dir.
            Javada char data type ina int degerde atanabilir Sembol Harf vs de atanabilir
-           Cunku char data type nin Ascii den gelen bir sayisal==numeric bir degeri birde resim karakteri vardir.
+           Cunku char data type nin Ascii den gelen sayisal==numeric bir degeri birde resim karakteri vardir.
          */
 
         // 'A' character inin Ascii degerini hesaplatan kodu yaziniz
@@ -103,7 +103,7 @@ public class C02_AsciiValue {
 
         byte sayi3 = 5;
         byte sayi4 = 6;
-        System.out.println("sayi3<sayi4 : " + (sayi3<sayi4));
+        System.out.println("sayi3<sayi4 : " + (sayi3<sayi4));//true
 
         int sayiInt = 100;
         long sayiLong = 100L;
@@ -114,14 +114,6 @@ public class C02_AsciiValue {
         int sayiInt3 = 9;
         char sayiChar = '9';
         System.out.println("sayiInt3 >= sayiChar : " + (sayiInt3 >= sayiChar)); //false
-
-
-
-
-
-
-
-
 
     }
 }
