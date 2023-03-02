@@ -50,7 +50,21 @@ public class IfStatement03 {
         }
 
         //3. yol
+        boolean haftaSonu = gun.equalsIgnoreCase("Pazar") || gun.equalsIgnoreCase("Cumartesi");
 
+        boolean haftaIci = gun.equalsIgnoreCase("Pazartesi") ||
+                           gun.equalsIgnoreCase("Sali") ||
+                           gun.equalsIgnoreCase("Carsamba") ||
+                           gun.equalsIgnoreCase("Persembe") ||
+                           gun.equalsIgnoreCase("Cuma");
+
+        if(haftaSonu){
+            System.out.println("Hafta sonu...");
+        }else if(haftaIci){
+            System.out.println("Hafta ici...");
+        }else{
+            System.out.println("Gecerli bir gun ismi giriniz...");
+        }
 
 
 

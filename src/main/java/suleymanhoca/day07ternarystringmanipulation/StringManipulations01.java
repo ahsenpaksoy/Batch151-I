@@ -7,7 +7,7 @@ public class StringManipulations01 {
          1) equals(): i) Iki tane String in ayni olup olmadigini anlamamiza yarar.
                       ii) equals() methodu "boolean" return eder.
 
-          2) equalsIgnoreCase():i) Iki tane String in ayni olup olmadigini buyuk harf kucuk harfe dikkat etmeden anlammamiza yarar.
+          2) equalsIgnoreCase():i) Iki tane String in ayni olup olmadigini buyuk harf kucuk harfe dikkat etmeden anlamamiza yarar.
                                 ii) equalsIgnoreCase() method u "boolean" return eder.
 
           3) toLowerCase(): i) Bir String deki tum harfleri kucuk harfe cevirmek icin kullanilir.
