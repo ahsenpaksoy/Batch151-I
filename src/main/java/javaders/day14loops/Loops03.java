@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Loops03 {
     public static void main(String[] args) {
 
-        //while-loop : Kontrol eder sonra calistirir
+        //while-loop : Once kontrol eder sonra calistirir
         int i = 1;
         while (i<1){ // while loop'da loop body'sinin hic calismamasi mumkundur.(Zero execution is possible)
             System.out.println("while loop");

@@ -19,7 +19,7 @@ public class Loops01 {
             if(s.indexOf(d) == s.lastIndexOf(d)){
                 sum = sum + Integer.valueOf(d);
                 //intiger ile string toplanmaz bu yuzden string olan d integer a cevirilir.
-                //bunun icinde integer valueOf (d) ile yapariz
+                //bunun icinde integer valueOf(d) ile yapariz
             }
         }
         System.out.println(sum);

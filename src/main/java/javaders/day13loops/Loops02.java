@@ -38,7 +38,7 @@ public class Loops02 {
         String u = "Java";
         String ters2 = "";
 
-        for(int i=u.length()-1; i>=0;i--){
+        for(int i=u.length()-1; i>=0; i--){
             ters2 = ters2 + u.charAt(i);  //String + char ==> String
         }
         System.out.println(ters2);
