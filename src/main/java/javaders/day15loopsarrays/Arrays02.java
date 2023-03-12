@@ -53,7 +53,7 @@ public class Arrays02 {
         //sort() method'u sayilari kucukten buyuge, Stringleri alfabetik olarak siralar.
 
 
-        //Example 4: Size verilen bir String array'deki isimleri alfabetik siraya koyduktan sonra F ile baslayan
+        //Example 4: Size verilen bir String array'deki isimleri alfabetik siraya koyduktan sonra "F" ile baslayan
         //           isimlerden onceki isimleri ve "F" ile baslayanlari console'a yazdiriniz
         Arrays.sort(stdNames); // [Ayda, Ayhan, Cuneyt, Filiz, Tom]
 
@@ -62,7 +62,6 @@ public class Arrays02 {
             if(w.startsWith("F")){
                 break;
             }
-            System.out.println(w);
         }
 
 

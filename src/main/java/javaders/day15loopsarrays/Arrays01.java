@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Arrays01 {
 
     /*
-       1)Array, Java'nin coklu data depolamak icin olusturdugu bir yapidir.
+       1)Array, Java'nin "ayni data tipi"nde "coklu data" depolamak icin olusturdugu bir yapidir.
        2)Array'ler "primitive data type'lari veya "reference"lar ile calisir.
        3)Array'ler "super fast dir ve memory'de cok az yer kaplarlar."
      */

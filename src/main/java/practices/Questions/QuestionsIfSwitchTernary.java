@@ -1,4 +1,4 @@
-package practices;
+package practices.Questions;
 
 public class QuestionsIfSwitchTernary {
     public static void main(String[] args) {

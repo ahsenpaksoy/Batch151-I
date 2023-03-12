@@ -1,4 +1,4 @@
-package practices;
+package practices.Questions;
 
 public class Q02_KullaniciBilgileri {
 

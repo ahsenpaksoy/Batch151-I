@@ -33,7 +33,7 @@ public class Loops04 {
                 break;
             }else{
                 System.out.println("Invalid username or password");
-                System.out.println((3-counter + " right left"));
+                System.out.println((3-counter) + " right left");
             }
 
         }while(true);
