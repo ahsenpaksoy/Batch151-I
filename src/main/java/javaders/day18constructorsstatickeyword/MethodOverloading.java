@@ -9,25 +9,29 @@ public class MethodOverloading {
             i)Parametrelerin sayilari degistirilebilir.
             ii)Parametrelerin data type'larini degistirebilirsiniz.
             iii)Parametrelerin data type'lari farkli ise yerleri degistirebilir.
+        4)"Method Overloading" bir class'in icinde olusur bu yuzden "private" methodlar da overload edilebilir.
+           "Method Overloading" butun access modifier'larda kullanilabilir.
+        5)"static" methodlar overload edilebilirler.
      */
     public static void main(String[] args) {
 
+        add(3,5);
 
     }
 
-    public static int add(int a, int b){
+    private static int add(int a, int b){
         return a+b;
     }
 
-    public static int add(int a, int b, int c){
+    private static int add(int a, int b, int c){
         return a+b+c;
     }
 
-    public static double add(double a, int b){
+    private static double add(double a, int b){
         return a+b;
     }
 
-    public static double add(int a, double b){
+    private static double add(int a, double b){
         return a+b;
     }
 
