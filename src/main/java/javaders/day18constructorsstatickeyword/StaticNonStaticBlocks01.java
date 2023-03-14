@@ -3,7 +3,7 @@ package javaders.day18constructorsstatickeyword;
 /*
         1)"static block" lar "static variable" lara "ilk degerlerini atamak"(initialize) icin kullanilir.
         2)"static" bir variable'a deger atamak icin kod yazmaniz gerekirse "static block" kullaniniz.
-        3)"static" bir variable'a deger atamak icin yazilmais gereken kod main method icine de yazilabilir ama
+        3)"static" bir variable'a deger atamak icin yazilmasi gereken kod main method icine de yazilabilir ama
           "static block" icine yazilan kod "main method" icine yazilan kod'dan once calistirilir.
         4)Bir class'da bir'den fazla static block varsa ustteki once calistirilir.
      */

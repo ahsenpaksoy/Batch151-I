@@ -64,7 +64,7 @@ public class MultiDimensionalArray01 {
         //Ex 4: Iki boyutlu bir array'i tek boyutlu bir array'e ceviriniz.
         int numbers[][] = { {5, 4}, {2, 3, 2}, {7} };
 
-       //1. Step: Iki boyutlu array'de kac eleman oldugunubulan kodu yazmaliyiz
+       //1. Step: Iki boyutlu array'de kac eleman oldugunu bulan kodu yazmaliyiz
         int toplamElemanSayisi = 0;
         for(int[] w : numbers){
             toplamElemanSayisi = toplamElemanSayisi + w.length;

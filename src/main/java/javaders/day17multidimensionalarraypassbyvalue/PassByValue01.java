@@ -9,11 +9,11 @@ public class PassByValue01 {
         3)Method ismi
         4)Method Parantez
         5){ } parantezleri method body'si icin
-​
+
         Note: "main method" un icindeki tum method'lar static olmalidir.
               Bir method'u static yapmak icin "access modifier" ile "return type"
               arasina "static" yazmak yeterlidir.
-​
+
        Pas by Value:
         1)Java "Pass by Value" kullanir.
         2)Yani; Java method'larin orjinal degeri degistirmesine musaade etmez
@@ -21,7 +21,7 @@ public class PassByValue01 {
           Method kopya deger uzerinde degisiklik yapar, boylece orjinal deger korunmus olur.
         4)Java esnek bir dil'dir. Istersek yazdigimiz kod ile orjinal degerin degismesini de temin edebiliriz.
         Bakiniz line 39
-​
+
       Pass by Reference:
         1)Pass by Reference da method'a reference yollanir.
         2)Reference adres demektir. Adres yollaninca method adresi kullanarak orjinal degere ulasir ve
