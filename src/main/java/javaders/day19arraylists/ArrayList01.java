@@ -42,7 +42,7 @@ public class ArrayList01 {
         price.add(33);
 
         //3.Way:
-        ages.addAll(price);  //addAll() method'u bir List' diger List'in icine yerlestirir.
+        ages.addAll(price);  //addAll() method'u bir List'i diger List'in icine yerlestirir.
         System.out.println(ages); //[12,99,24,9,23,33]
 
         //4.Way:
