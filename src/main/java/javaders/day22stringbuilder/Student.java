@@ -9,10 +9,10 @@ public class Student {
     //Acceess Modifier'i "default" olan ile "public" olan class member'lar ayni package icinde
     //kullanildiklarinda ayni ozellikleri gosterirler.
     //Fakat farkli package'e gectiginizde "public" olanlara ulasilabilir, "default" olanlara ulasilamaz.
-    int age = 23;
+    int age = 23; // Access modifier'i default
 
 
-    //Acceess Modifier'i "private" olan Class Member'lar sadece olusturduklari class icinden gorulebilirler.
+    //Acceess Modifier'i "private" olan Class Member'lar sadece olusturulduklari class icinden gorulebilirler.
     //Olusturulduklari class'in disina ciktiginizda gorunmez, ulasilmz olurlar.
     private String healthCondition = "Cancer";
 
