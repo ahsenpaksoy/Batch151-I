@@ -61,9 +61,11 @@ public class Sb01 {
         System.out.println(sb2.capacity()); //2
 
         sb2.append("...");
-        System.out.println(sb2.capacity());
+        System.out.println(sb2.capacity());//6
 
 
+        StringBuilder newSb3 = new StringBuilder();
+        System.out.println("newSb3.capacity() = " + newSb3.capacity());
 
 
 

@@ -1,4 +1,4 @@
-package practices.day05_looparrays;
+package practices.day_05_looparrays;
 
 import java.util.Scanner;
 

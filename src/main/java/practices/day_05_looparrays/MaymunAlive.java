@@ -1,4 +1,4 @@
-package practices.day05_looparrays;
+package practices.day_05_looparrays;
 
 public class MaymunAlive {
 
