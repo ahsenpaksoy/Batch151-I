@@ -33,7 +33,7 @@ public class Animal {
     protected int add(int a, int b){
         return a+b;
     }
-    public Animal create(){ //class'lar ayni zamanda bir data taype'dir.
+    public Animal create(){ //class'lar ayni zamanda bir data type'dir.
         return new Animal();
     }
 

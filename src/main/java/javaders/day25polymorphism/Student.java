@@ -5,7 +5,7 @@ public class Student {
     public String stdName = "Tom Hanks";
     public int age = 23;
 
-    //Encapsulation nedir? Data saklamaktir.(Dta hiding)
+    //Encapsulation nedir? Data saklamaktir.(Data hiding)
     //Access modifier'ini private yaparak diger class'lardan saklama isine denir.
     //Data'yi nasil saklarsin? Access Modifier'ini "private" yaparak.
 
@@ -41,7 +41,7 @@ public class Student {
     //iii)set method parametre kullanir, parametrenin data type'i variable ile ayni olur.
     //iv)set method kullanarak varolan object uzerinde degisiklikler yaparak o object'i sanki yeni bir object'mis gibi kullanabiliriz.
 
-    //Note : getmethod'larin diger sadi "gette", set method'larin diger adi "setter" dir.
+    //Note : getmethod'larin diger adi "getter", set method'larin diger adi "setter" dir.
 
     //set method'un return type'i hep void'dir.
 

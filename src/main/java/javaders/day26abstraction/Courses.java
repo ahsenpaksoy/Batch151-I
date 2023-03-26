@@ -10,7 +10,7 @@ package javaders.day26abstraction;
         2)Body'si yazilmayan method'a "Abstract Method" denir.
           Abstract Ingilizce'de "vucutsuz" veya "soyut" anlamindadir.
         3)Method'un body'sini yazmayinca Java hata verir, biz de "abstract"
-          keyword'unu kullanarak Java'ya bu emthod'un body'si olmayacak deriz.
+          keyword'unu kullanarak Java'ya bu method'un body'si olmayacak deriz.
         4)"abstract" keyword'unu kullaninca elde ettigimiz abstract method
           normal class'lara konulamaz, o yuzden class'i da "abstract" yapariz.
         5)Parent'taki method abstract ise butun child class'lar o method'u
