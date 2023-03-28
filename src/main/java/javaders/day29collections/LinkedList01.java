@@ -2,20 +2,21 @@ package javaders.day29collections;
 
 //collections'lar ayni tipteki datalari depolayan yapilardir.List'ler bir collection'dir.
 //ArrayList'ler eleman silme ve eklemede tekrar indexleme yapmak zorunda olduklarindan
-// eleman ekleme ve silmede basarisizdirlar.
+// eleman ekleme ve silmede basarisizdirlar.Cok uzun surer
 //1)LinkedLList'ler index kullanmazlar.Bu yuzden eleman ekleme ve silme islemlerinde tekrar indexleme yapilmaz.
 //2)LinkedList'lerde node ekleme ve silme islemleri yaparken sadece pointer'lari degistirir.
 //ArrayList'ler eleman bulmada cok basarilidir.
 //LinkedList'ler ekleme ve cikarmada basarili.
+//Arraylist'dekilere eleman LinkedList'dekilere node denir.
 
 import java.util.LinkedList;
 
 public class LinkedList01 {
 
      /*
-       1)LinkedList'ler eleman silme ve ekleme'de cok basarili olduklari icin,
+       1)LinkedList'ler node silme ve ekleme'de cok basarili olduklari icin,
          silme ve ekleme islemlerini coklukla yapacaginiz zaman LinkedList kullaniniz.
-       2=ArrayList'ler index'leri adres gibi kullanir, bu yuzden ArrayList'ler "search" islemlerinde cok basarilidirlar.
+       2)ArrayList'ler index'leri adres gibi kullanir, bu yuzden ArrayList'ler "search" islemlerinde cok basarilidirlar.
        Note : Ihtiyaciniz olan collection cogunlukla silme ve ekleme islemleri yapacaksa(muze ziyaretcileri gibi) LinkedList,
          "search" islemleri yapacaksa(Amerika eyaletleri gibi) ArrayList kullaniniz.
      */
@@ -83,11 +84,8 @@ public class LinkedList01 {
         System.out.println(r4);//Esra
         System.out.println(s);// [Steve, Ajda, Esen, Muge, Cuneyt, Esra, Ajdar]
 
-
-
     }
 }
-
 /*
     ArrayListler eleman silme ve eklemede yavastirlar. Cunku tekrar indexlemeye ihtiyac duyarlar.
         LinkedListler ise elaman silmede basarilidirlar. LinkedListlerde her eleman bir sonrakini gosteriyor

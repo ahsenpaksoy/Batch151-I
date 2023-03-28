@@ -13,5 +13,14 @@ public class Toyota extends Car{
         System.out.println("Toyota constructor 2");
     }
 
+    /*
+    @Override
+    public String toString() {
+        return "Toyota{" +
+                "model='" + model + '\'' +
+                ", price=" + price +
+                '}';
+    }
+    */
 }
 

@@ -7,6 +7,8 @@ public class CarRunner {
        // t1.model = "Prius";
        // System.out.println(t1.model);
 
+        //System.out.println(t1.toString());
+
         Honda h1 = new Honda();
         String s = "Ali";
 

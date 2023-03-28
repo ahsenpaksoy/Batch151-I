@@ -51,6 +51,6 @@ public class Car {
         System.out.println("Car constructor 2");
     }
 
-
-
 }
+
+  //Her class bir data type'dir. Her class urettigi object'nin kalibidir. Ayni zamanda urettigi datanin type'idir.
