@@ -10,6 +10,7 @@ public class Sets02 {
 
         //1. yol: TreeSet eleman eklemede cok yavastir.Her bir elemani eklerken siralama yapar.
         //her eleman eklendiginde siralama yapar o yuzden yavas calisir
+        long t1 = System.nanoTime();
         TreeSet<String> emails = new TreeSet<>();
         emails.add("abc@gmail.com");
         emails.add("abd@gmail.com");
@@ -22,6 +23,9 @@ public class Sets02 {
         emails.add("abk@gmail.com");
         emails.add("abl@gmail.com");
         System.out.println(emails);
+        //TreeSet yavas calisir
+
+        long t2 = System.nanoTime();
 
         //2. way: Bu daha hizli calisir.
         //TreeSet i en sona ekledigimiz icin bir kere siralama yapar
@@ -36,9 +40,14 @@ public class Sets02 {
         emaisHs.add("abj@gmail.com");
         emaisHs.add("abk@gmail.com");
         emaisHs.add("abl@gmail.com");
+        //HashSet cok hizli calisir.
+        //Alfabetik siraya koymak icin de TreeSet kullandik.
 
         TreeSet<String> emailsHsTs = new TreeSet<>(emaisHs);
         System.out.println(emailsHsTs);
+        long t3 = System.nanoTime();
+        System.out.println(t2-t1);//TreeSet
+        System.out.println(t3-t2);//HashSet
 
 
     }

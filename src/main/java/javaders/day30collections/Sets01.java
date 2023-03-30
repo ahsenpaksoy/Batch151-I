@@ -27,7 +27,7 @@ public class Sets01 {
      */
     public static void main(String[] args) {
 
-        HashSet<String> hs = new HashSet<>();
+        HashSet<String> hs = new HashSet<>(); //Butun collection'lar non-primitive kullanir.
 
         hs.add("Ajda");
         hs.add("Cuneyt");
@@ -35,9 +35,9 @@ public class Sets01 {
         hs.add("Zeki");
         hs.add("Ezel");
         hs.add("Cuneyt"); //Tekrarli eleman eklediginizde hata vermez ama tekrarli elemani sadece bir kere ekler.
+        hs.add(null); //[null, Zeki, Ajda, Cuneyt, Esra, Ezel]
         hs.add(null);
-        hs.add(null);
-        System.out.println(hs); //[Zeki, Ajda, Cuneyt, Esra, Ezel]
+        System.out.println(hs); //[Zeki, Ajda, Cuneyt, Esra, Ezel]    Rastgele siralama yapti.
         System.out.println(hs.hashCode()); //2038751948
 
 
@@ -69,13 +69,13 @@ public class Sets01 {
         ts.add('U');
         ts.add('R');
         //ts.add(null); ==> TreeSet'lere null eklenemmez.
-        System.out.println(ts); //[A, G, R, U, Z]
+        System.out.println(ts); //[A, G, R, U, Z]  Alfabetik sira yapti.
 
         System.out.println(ts.first());//A
         System.out.println(ts.last());//Z
 
         System.out.println(ts.lower('R'));//G  ==> Verilen eleman olan R'den bir onceki elemani verir.
-        System.out.println(ts.lower('D'));//A
+        System.out.println(ts.lower('D'));//A //set'te olmayan elemanlar icin de kullanilir
         System.out.println(ts.lower('A'));//null
 
         System.out.println(ts.higher('K'));//R ==> Verilen K'dan sonraki elemani verir.
@@ -99,6 +99,28 @@ public class Sets01 {
     }
 
 }
+
+ /*
+
+    1) Set ler tekrarsiz (==>unique) eleman depolamak icin kullanilir
+    2) 3 tane Set Classi vardir.
+        a) HashSet Class:
+            "Hash" benzersiz bir id olusturma teknigidir. Bu teknige hashing technique denir
+            "HashSet" elemanlari rastgele siralar
+            "HashSet" elemanlari siralamadigindan cok hizli calisir
+            "HashSet" ler tekrarsiz eleman depolamak icin kullanilir
+            "HashSet" ler "null" i eleman olarak kabul eder.
+
+       b) LinkedHashSet Class:
+            "LinkedHashSet" elemanlari sizin verdiginiz siraya gore (insertion order) dizdiklerinden Hashsetlere gore yavastirlar
+            "LinkedHashSet" ler tekrarsiz eleman depolamak icin kullanilir
+
+       c) TreeSet Class:
+            "TreeSet" ler elemanlari natural order(kucukten buyuge, alfabetik sira)'ya gore dizerler
+             "TreeSet" ler elemanlari natural order a gore dizdiklerinden cok yavastirlar
+             En yavas set "TreeSet" ler dir.
+             "TreeSet" ler tekrarsiz eleman depolamak icin kullanilir
+       */
 
 
 
