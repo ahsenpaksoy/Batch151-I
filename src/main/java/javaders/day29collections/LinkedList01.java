@@ -102,7 +102,7 @@ public class LinkedList01 {
 /*
     1) ArrayList ler eleman silme ve eleman eklemede basarisizdirlar
        o yuzden eleman silme ve ekleme islemlir coklukla yapilacaksa Arraylist kullanmak tavsiye edilmez
-    2) LinkedListler index kullanmadiklarindan dolayi eleman silme ve eklemede re-index yapilamasina gerek yoktur.
+    2) LinkedListler index kullanmadiklarindan dolayi eleman silme ve eklemede re-index yapilmasina gerek yoktur.
        Bu da Linkedlistlerin eleman ekleme ve silmede cok basarili hale getirir.
        Bu yuzden eleman ekleme ve silmenin cok yapilmasi gereken durumlarda Linklist kullanmak tavsiye edilir
     3) ArrayListlerde "search" islemi kolay yapilir cunku indexler adres gibidir.

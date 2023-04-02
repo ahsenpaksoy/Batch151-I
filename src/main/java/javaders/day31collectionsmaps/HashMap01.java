@@ -11,7 +11,7 @@ import java.util.Set;
             "key" kismi tekrarsiz, "value" tekrarli olabilir.
             Map'ler "key" ve "value" structure'ini kullanir.
             Map'lerdeki elemanlara "Entry" denir.
-            Elemanlarin tamanina ise "EntrySet" denilir.
+            Elemanlarin tamamina ise "EntrySet" denilir.
             "Entry"ler tekrarsiz oldugu icin "EntrySet"denilir.
             "Key" ve "Value" lar ayri ayri data type'larinda olabilirler.
             "Map"'ler Collection degildir, farkli bir yapidir.
@@ -41,6 +41,8 @@ public class HashMap01 {
         //Butun "key"leri nasil alabiliriz?
         Set<String> keys = countryPopulation.keySet();
         System.out.println(keys); //[Turkiye, Netherland, USA, Germany, Albania]
+        //keySet method'unun return type'i Set<K> . Return type'ina keySet'in icine girip bakiyoruz.
+        //method'un return type'i olusturacaginiz conteyner'in return type'iyla ayni olmalidir.
 
         //Butun "value"leri nasil alabiliriz?
         Collection<Integer> values = countryPopulation.values();

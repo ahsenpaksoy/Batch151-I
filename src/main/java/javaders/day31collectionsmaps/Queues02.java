@@ -9,6 +9,7 @@ public class Queues02 {
     public static void main(String[] args) {
 
         Queue<String> line = new PriorityQueue<>(); // PriorityQueue<>(); //Önceliğe göre sıralama.
+        //constructor PriorityQueue<>() oldugu icin elemanlar PriorityQueue<>()'nin mantigina gore dizilecek
 
         line.add("Milk");
         line.add("Meat");

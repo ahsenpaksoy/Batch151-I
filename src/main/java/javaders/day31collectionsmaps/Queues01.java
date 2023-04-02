@@ -13,8 +13,10 @@ public class Queues01 {
         wareHouse.add("Egg");
         wareHouse.add("Cheese");
         System.out.println(wareHouse); //[Milk, Meat, Bread, Egg, Cheese]
+        //Queue elemanlari verilen siraya gore dizdi. Cunku constructor olarak LinkedList kullandik
+        //LinkedList elemanlari bizim verdigimiz siraya gore dizdigi icin Queue da LinkedList'den dolayi ona gore dizmek zorunda kaldi.
 
-        wareHouse.remove();
+        wareHouse.remove(); //Ilk elemani siler.
         System.out.println(wareHouse); //[Meat, Bread, Egg, Cheese]
 
         System.out.println(wareHouse.peek()); //Meat
@@ -23,7 +25,9 @@ public class Queues01 {
         System.out.println(wareHouse.element()); //Meat
         System.out.println(wareHouse); //[Meat, Bread, Egg, Cheese]
 
-        System.out.println(wareHouse.poll()); //Meat
+        //Queue'da eleman varsa peek ve element ilk elemani verir. Eleman yoksa bossa peek null verir, element hata verir.
+
+        System.out.println(wareHouse.poll()); //Meat  Ilk elemani verir ve sonra siler. Boslar icin null verir.
         System.out.println(wareHouse); //[Bread, Egg, Cheese]
 
         wareHouse.clear();
