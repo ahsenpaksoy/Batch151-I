@@ -1,9 +1,6 @@
 package javaders.day38enumsiterators;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Iterators01 {
 
@@ -64,10 +61,39 @@ public class Iterators01 {
             String el = yourListItr.next();
             yourListItr.set(el + "!"); //set() method'u list'i update etmeye yarar.
 
+            //hasNext() ve next() pointer'i en sona iter.
+
         }
         System.out.println(yourList); //[Tom!, Jim!, Clara!, Angie!, Mark!]
 
         //hasPrevious() ve previous() nasil kullanilir?
+        while(yourListItr.hasPrevious()){ //hasPrevious() pointer'a senden once elemman var mi diye sorar.
+            String el = yourListItr.previous(); //previous() method'u pointer'i bir one atar, ustunden atladigi elemani verir
+            System.out.println(el);
+            yourListItr.set("?" + el);
+        }
+        System.out.println(yourList); //[?Tom!, ?Jim!, ?Clara!, ?Angie!, ?Mark!]
+
+        //hasPrevious() ve previous() kullanmak icin pointer en sonda olmalidir, yoksa kullanamazsiniz.
+        //hasPrevious() sondan baslar
+
+        //En sondan en basa nasil iterate edebiliriz?
+        LinkedList<String> ourList = new LinkedList<>();
+        ourList.add("Tom");
+        ourList.add("Jim");
+        ourList.add("Clara");
+        ourList.add("Angie");
+        ourList.add("Mark");
+        System.out.println(ourList);
+
+        Iterator<String> ourListItr = ourList.descendingIterator();   //sondan basa demek
+        while(ourListItr.hasNext()){
+            String el = ourListItr.next();
+            System.out.println(el);
+        }
+
+        //descendingIterator() ancak LinkedList ile kullanilir.
+        //descendingIterator() otomatik olarak pointer'i en sona koyar ve islem sondan baslar.
 
 
 
