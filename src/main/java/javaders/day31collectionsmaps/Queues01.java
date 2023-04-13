@@ -15,6 +15,7 @@ public class Queues01 {
         System.out.println(wareHouse); //[Milk, Meat, Bread, Egg, Cheese]
         //Queue elemanlari verilen siraya gore dizdi. Cunku constructor olarak LinkedList kullandik
         //LinkedList elemanlari bizim verdigimiz siraya gore dizdigi icin Queue da LinkedList'den dolayi ona gore dizmek zorunda kaldi.
+        //FIFO ==>Queue
 
         wareHouse.remove(); //Ilk elemani siler.
         System.out.println(wareHouse); //[Meat, Bread, Egg, Cheese]

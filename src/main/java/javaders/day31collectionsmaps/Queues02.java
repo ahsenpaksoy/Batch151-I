@@ -26,6 +26,7 @@ public class Queues02 {
         d.add("Egg");
         d.add("Orange");
         d.add("Tomatoes");
+        System.out.println(d);
 
 
 

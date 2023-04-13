@@ -1,8 +1,10 @@
 package javaders.day39lambda;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Lambda01 {
     public static void main(String[] args) {
@@ -14,6 +16,8 @@ public class Lambda01 {
         myList.add("Tom");
         myList.add("Clara");
         myList.add("Angelina");
+
+        List<String> iller = new ArrayList<>(Arrays.asList("Eskisehir","MUS","VAN","Edirne","Ordu","VAN","Izmir","Safranbolu","Izmir"));
 
         printElements(myList);
         System.out.println();
@@ -30,6 +34,14 @@ public class Lambda01 {
         printElUniqueToUpperCaseSorted(myList);
         System.out.println();
         printElUniqueLowerCaseSortWithLength(myList);
+        System.out.println();
+
+
+        ilkHarfBykDigerKucukYazdir(iller);
+        System.out.println();
+
+        System.out.println(ilkHarfEveyaSOlanlariYazdir(iller));
+        System.out.println();
 
 
 
@@ -114,6 +126,27 @@ public class Lambda01 {
                 forEach(t-> System.out.print(t + " "));
         //Note: Siralamayi bir sarta baglayacaksak sorted(Comparator.comparing()) kullanmaliyiz
     }
+
+    // Example 8: Tum elemanlarin ilk harfini buyuk digerlerini kucuk yazdiran methodu olusturunuz
+
+    public static List<String> ilkHarfBykDigerKucukYazdir(List<String >iller) {
+        System.out.print("8) ");
+        iller.
+                stream().
+                map(t->t.substring(0,1).toUpperCase()+t.substring(1).toLowerCase()).
+                forEach(t-> System.out.print(t+" "));
+        return iller;
+    }
+    // Example 9: Ilk Harfi "E" veya "S" olanlari bir liste icerisinde yazdiran methodu olusturunuz
+
+    public static List<String> ilkHarfEveyaSOlanlariYazdir(List<String >iller) {
+        System.out.print("9) ");
+        return     iller.
+                stream().
+                filter(t->t.startsWith("E") || t.startsWith("S")).
+                collect(Collectors.toList());// bir akisin sonuclarini bir listin icinde toparlamak icin kullanilir
+    }
+
 }
 
 /*
@@ -122,6 +155,8 @@ public class Lambda01 {
     3)Functional Programming dir. Mimari yapiya onem vermez
     4)Hiz , Clean Code ve okunabilirlik acisindan onemlidir
 */
+//Lambda collection ve listlerde kullanilabilir fakat map'lerde kullanilamaz
+//sorted() methodu natural order olarak calisir.String datalar icin A'dan Z'ye integer datalar icin 1-999 seklinde siralama yapar
 
 
 
