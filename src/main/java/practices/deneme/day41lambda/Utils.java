@@ -1,6 +1,7 @@
-package javaders.day41lambda;
+package practices.deneme.day41lambda;
 
 public class Utils {
+    //utils  applicationda sik kullanilanlarin depolandigi class'tir , faydali method'larin toplandigi yer demek.
 
     public static int getSquare(int a){
         return a*a;
@@ -11,15 +12,13 @@ public class Utils {
     }
 
     public static int getSumOfDigits(int a){
-
-        int sum =0;
-
-        while (a>0){
-            sum += a%10;
+        int sum = 0;
+        while(a>0){
+            sum = sum + a%10;
             a = a/10;
         }
         return sum;
     }
 
+
 }
-     //Utils applicationda sik kullanilanlarin depolandigi class'tir

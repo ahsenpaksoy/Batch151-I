@@ -1,4 +1,4 @@
-package javaders.day40;
+package javaders.day40lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -80,10 +80,28 @@ public class Lambda01 {
         }
 
 
+        /*
+
         // 6) List elemanlarini karakter sayilarinin karelerini aliniz Ve bir list olarak ekrana yazdirin
+        public static List<Integer> elKarakterSayilarininKareleriniAl(List<String> iller ){
+            System.out.print("6) ");
+            return iller.
+                    stream().
+                    map(Utils::karesiniAl).// LAMBDA EXPRESSION   map(t->t.length() * t.length()).
+                            collect(Collectors.toList());
+        }
 
 
         //  7) List elemanlarindan karakter sayisi cift sayi olanlari bir list icinde ekrana yazdiriniz.
+        public static List<String> karakterSayisiCiftOlanlariListYazdir(List<String> iller ) {
+            System.out.print("7) ");
+            return  iller.
+                    stream().
+                    filter(Utils::ciftMi).//Lambda expression filter(t->t.length() %2 ==0).
+                            collect(Collectors.toList());
+        }
+
+         */
 
 
 }

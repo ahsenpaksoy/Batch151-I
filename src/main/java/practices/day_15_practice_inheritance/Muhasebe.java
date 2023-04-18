@@ -1,4 +1,4 @@
-package practices.day_15_practice;
+package practices.day_15_practice_inheritance;
 
 public class Muhasebe extends Personel {
     protected int saatUcreti;
