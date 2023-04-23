@@ -15,7 +15,7 @@ public class Arrays01 {
         String stdNames[] = new String[5];
 
         //Array nasil yazdirilir?
-        System.out.println(Arrays.toString(stdNames)); // [null, null, null, null, null] ==< null'lar String'in default degerleridir.
+        System.out.println(Arrays.toString(stdNames)); // [null, null, null, null, null] ==> null'lar String'in default degerleridir.
 
         //Array'e nasil eleman eklenir?
         stdNames[0] = "Ajda";

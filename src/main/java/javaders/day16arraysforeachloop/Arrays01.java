@@ -20,7 +20,7 @@ public class Arrays01 {
         int numOfElements = input.nextInt();
 
         String stdNames[] = new String[numOfElements];
-        System.out.println("To stop adding press 'q");
+        System.out.println("To stop adding press q");
 
         for(int i=0; i<stdNames.length; i++){
 
@@ -36,11 +36,6 @@ public class Arrays01 {
 
         }
         System.out.println(Arrays.toString(stdNames));
-
-
-
-
-
 
 
     }

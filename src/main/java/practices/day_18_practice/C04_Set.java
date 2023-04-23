@@ -19,7 +19,7 @@ public class C04_Set {
         Set<Integer> tekrarsizSet = new TreeSet<>();
 
         for (int each : arr) {
-            tekrarsizSet.add(each);
+            tekrarsizSet.add(each); // set, zaten unique olacagi icin tum elemanları direk ekledik
         }
         System.out.println(tekrarsizSet);
 
@@ -27,7 +27,7 @@ public class C04_Set {
 
         int idx = 0;
 
-        for(Integer each : tekrarsizSet){
+        for(Integer each : tekrarsizSet){  // setlerde index yapısı olmadıgı icin foreach kullandık
             arr2[idx] = each;
             idx++;
         }

@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+// Merhaba
 
 public class Lambda01 {
     public static void main(String[] args) throws IOException {
@@ -69,6 +70,8 @@ public class Lambda01 {
                 map(t->t.split("")).
                 flatMap(Arrays::stream).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
         System.out.println(letters);
+
+        System.out.println("Finish");
 
 
 

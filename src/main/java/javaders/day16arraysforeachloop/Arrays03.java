@@ -44,10 +44,5 @@ public class Arrays03 {
         }
 
 
-
-
-
-
-
     }
 }

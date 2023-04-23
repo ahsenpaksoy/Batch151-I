@@ -61,7 +61,7 @@ public class Loops02 {
 
         System.out.println();
 
-        //Size verilen tamsayinin rakamlarini toplamini console'a yazdiran kodu yaziniz.
+        //Size verilen tamsayinin rakamlarinin toplamini console'a yazdiran kodu yaziniz.
         int r = 578;
         r = Math.abs(r);
         int sum = 0;

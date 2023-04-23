@@ -32,8 +32,6 @@ public class Loops01 {
         String t = "Alala";
         String result = "";
 
-
-
         for(int i=0; i<t.length(); i++){
             char ch = t.charAt(i);                    //contains() String le calisir, char la calismaz.
             if((t.indexOf(ch) != t.lastIndexOf(ch)) && !result.contains("" + ch)){

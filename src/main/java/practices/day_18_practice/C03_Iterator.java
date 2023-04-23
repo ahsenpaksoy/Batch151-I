@@ -19,9 +19,9 @@ public class C03_Iterator {
 
         Iterator itr = dq.iterator();
 
-        while (itr.hasNext()){
-            Object sayi = itr.next();
-
+        while (itr.hasNext()){ // yanında eleman var mı kontrol ediyorum
+            Object sayi = itr.next(); //itr'ı bir adım ileriye atıyorum
+                                      // uzerinden gectigi elemanı bize donduruyor
             if((Integer) sayi>5){
                 System.out.print(sayi + " ");
             }

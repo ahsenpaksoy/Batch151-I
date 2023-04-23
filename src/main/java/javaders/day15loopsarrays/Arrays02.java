@@ -12,6 +12,7 @@ public class Arrays02 {
 
          Asagidaki grades array'inde son elemani almak icin "4" veya "grades.length-1" kullanilabilir.
          "4" kullanirsaniz array'e bir eleman eklendiginde kodunuz yanlis cikti verir ama "grades.length-1"
+         kullanirsaniz hep dogru sonucu alirsiniz
      */
     public static void main(String[] args) {
 

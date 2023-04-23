@@ -1,4 +1,4 @@
-package day16arraysforeachloop;
+package javaders.day16arraysforeachloop;
 
 import java.util.Scanner;
 
