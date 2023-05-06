@@ -99,6 +99,20 @@ Aynı şekilde yukarıda ifade edildiği gibi bir variable final olarak tanımla
 
 
 Soru 8--> Sizce bir tester ın sorumlulukları nelerdir?
+Cevap8-->
+Test planın takip etmek
+Hataları tarafsız ve gerçekçi bir şekilde raporlamak
+Yazımlımcıyı değil yazılımı test ettiğinin bilincinde olmak
+Riskleri tarafsız bir şekilde değerlendirmek
+Hataları önceliklendirmek
+
+
+ Soru9-->Java da garbage collector un çalışma prensibi hakkında bilgi verir misiniz.
+ Cevap-->9 Garbage collector gereksiz nesnelerin ve bilhassa null olarak tanımlanmış olanların toplanarak hafızada yer açılması işlemidir. Bu sayede gereksiz bilgiler temizlenerek çalışmanın hızlanması sağlanır. Garbage collector herhangi bir komut verilmeden de otomatik olarak çalışabilir. Ancak biz de kod yazarak Runtime.getRuntime.gc(); garbage collector’un devreye girmesini sağlayabiliriz. Bir şekilde biriken nesneler OutOfMemoryException hatası verebilir. Ayrıca şunu ifade etmek gerekirse garbage collector heap memory’de temizlik yapar ve JVM (Java Virtual Machine)’nin kontrolünde çalışır.
+
+
+ Soru -->10 Primary key ve Foreign key arasındaki fark nedir.
+
 
 
 

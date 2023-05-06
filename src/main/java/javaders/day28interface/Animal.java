@@ -5,7 +5,7 @@ public interface Animal {
     void drink();
 
     //1)interface'lerdeki tum variable'lar otomatik(default) olarak "final"dir.
-    ////Baslatilmasi ve degistirilmemesi gerekir.
+    // Baslatilmasi ve degistirilmemesi gerekir.
     //  Bu yuzden interface icindeki variable'i olusturdugunuzda mutlaka deger atamasi yapmalisiniz.
     //  Bilindigi gibi final variable'larin degerleri degistirilemez.
     //2)interface'lerdeki tum variable'lar otomatik(default) olarak "public" dir.

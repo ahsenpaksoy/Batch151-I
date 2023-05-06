@@ -37,7 +37,7 @@ public class Sets01 {
         hs.add("Cuneyt"); //Tekrarli eleman eklediginizde hata vermez ama tekrarli elemani sadece bir kere ekler.
         hs.add(null); //[null, Zeki, Ajda, Cuneyt, Esra, Ezel]
         hs.add(null);
-        System.out.println(hs); //[Zeki, Ajda, Cuneyt, Esra, Ezel]    Rastgele siralama yapti.
+        System.out.println(hs); //[null,Zeki, Ajda, Cuneyt, Esra, Ezel]    Rastgele siralama yapti.
         System.out.println(hs.hashCode()); //2038751948
 
 
@@ -99,29 +99,6 @@ public class Sets01 {
     }
 
 }
-
- /*
-
-    1) Set ler tekrarsiz (==>unique) eleman depolamak icin kullanilir
-    2) 3 tane Set Classi vardir.
-        a) HashSet Class:
-            "Hash" benzersiz bir id olusturma teknigidir. Bu teknige hashing technique denir
-            "HashSet" elemanlari rastgele siralar
-            "HashSet" elemanlari siralamadigindan cok hizli calisir
-            "HashSet" ler tekrarsiz eleman depolamak icin kullanilir
-            "HashSet" ler "null" i eleman olarak kabul eder.
-
-       b) LinkedHashSet Class:
-            "LinkedHashSet" elemanlari sizin verdiginiz siraya gore (insertion order) dizdiklerinden Hashsetlere gore yavastirlar
-            "LinkedHashSet" ler tekrarsiz eleman depolamak icin kullanilir
-
-       c) TreeSet Class:
-            "TreeSet" ler elemanlari natural order(kucukten buyuge, alfabetik sira)'ya gore dizerler
-             "TreeSet" ler elemanlari natural order a gore dizdiklerinden cok yavastirlar
-             En yavas set "TreeSet" ler dir.
-             "TreeSet" ler tekrarsiz eleman depolamak icin kullanilir
-       */
-
 
 
 

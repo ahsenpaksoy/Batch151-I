@@ -64,8 +64,8 @@ public class ArrayList02 {
 
         //Iki ArrayList'in birbirine esit olup olmadigini nasil anlariz?
         //equals() method'u ayni elemanlar ayni index'te oldugu surece true verir.
-        boolean r1 = initials.equals(letters); //equals() method'u hem elemmanlar ayni mi diye bakar
-                                               // hemdede ayni eleman ayni indexte mi diye bakar
+        boolean r1 = initials.equals(letters); //equals() method'u hem elemanlar ayni mi diye bakar
+                                               // hem de ayni eleman ayni indexte mi diye bakar
         System.out.println(r1); //false
 
 

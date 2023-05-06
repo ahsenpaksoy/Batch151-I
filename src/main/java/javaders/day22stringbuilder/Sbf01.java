@@ -12,7 +12,7 @@ public class Sbf01 {
           mantikli bir siraya koymak "synchronization" olarak adlandirilir.
           StringBuffer "multi-thread" oldugu icin ayni zamanda "synchronized" dir.
 
-        3 tane Staring olusturan Class ogrendik;
+        3 tane String olusturan Class ogrendik;
             1)immutable string lazimsa; String Class
             2)mutable string lazimsa; StringBuilder veya StringBuffer
                                   i)StringBuilder'i multi-thread gerekmezse kullaniriz

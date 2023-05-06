@@ -6,6 +6,7 @@ public class CarRunner {
         Engine.stop(); //stop() method'u static oldugundan "interface" ismi ile ulastim.
 
        // Engine e = new Engine(); //interface'lerde object olusturulamaz.
+
         Honda h = new Honda();
         h.eco(); //eco() method'u static olmadigindan(default method) "object" ismi ile ulastim.
     }

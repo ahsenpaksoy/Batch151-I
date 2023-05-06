@@ -37,7 +37,7 @@ public interface Engine {
     void start();
     void payment();
 
-    //default access modifier yazilmaz. bu yeni bir keyword.interface'lerde concrete method olusturmaya yarar.
+    //default olan access modifier yazilmaz. bu yeni bir keyword.interface'lerde concrete method olusturmaya yarar.
     default void eco(){  //dafault keyword'u access modifier degil. yeni bir keyword. concrete method koymak icin kullanilir.
         System.out.println("Uses gas less...");
     }

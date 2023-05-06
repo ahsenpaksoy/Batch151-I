@@ -1,13 +1,13 @@
 package javaders.day29collections;
 
-//collections'lar ayni tipteki datalari depolayan yapilardir.List'ler bir collection'dir.
-//ArrayList'ler eleman silme ve eklemede tekrar indexleme yapmak zorunda olduklarindan
-// eleman ekleme ve silmede basarisizdirlar.Cok uzun surer
-//1)LinkedLList'ler index kullanmazlar.Bu yuzden eleman ekleme ve silme islemlerinde tekrar indexleme yapilmaz.
-//2)LinkedList'lerde node ekleme ve silme islemleri yaparken sadece pointer'lari degistirir.
-//ArrayList'ler eleman bulmada cok basarilidir.
-//LinkedList'ler ekleme ve cikarmada basarili.
-//Arraylist'dekilere eleman LinkedList'dekilere node denir.
+    //collections'lar ayni tipteki datalari depolayan yapilardir.List'ler bir collection'dir.
+    //ArrayList'ler eleman silme ve eklemede tekrar indexleme yapmak zorunda olduklarindan
+    // eleman ekleme ve silmede basarisizdirlar.Cok uzun surer
+    //1)LinkedLList'ler index kullanmazlar.Bu yuzden eleman ekleme ve silme islemlerinde tekrar indexleme yapilmaz.
+    //2)LinkedList'lerde node ekleme ve silme islemleri yaparken sadece pointer'lari degistirir.
+    //ArrayList'ler eleman bulmada cok basarilidir.
+    //LinkedList'ler ekleme ve cikarmada basarili.
+    //Arraylist'dekilere eleman LinkedList'dekilere node denir.
 
 import java.util.LinkedList;
 
