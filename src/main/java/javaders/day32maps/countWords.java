@@ -32,6 +32,8 @@ public class countWords {
         }
 
         System.out.println(all.toString());
+
     }
 
 }
+

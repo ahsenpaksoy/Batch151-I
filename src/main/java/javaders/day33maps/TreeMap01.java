@@ -9,7 +9,7 @@ public class TreeMap01 {
         1)TreeMap "thread-safe" ve "synchronized" degildir.
           Note: Map'lerde "multi thread" kullanmaniz gerektiginde sadece HashTable kullanabilirsiniz.
         2)TreeMap ler value'larda null kullanimina musaade eder, key'lerde etmez.
-        3)TreeMap entry'leri key'lerine gor natural order'a gore siraya koyar. Bu yuzen cooook yavastir.
+        3)TreeMap entry'leri key'lerine gore natural order'a gore siraya koyar. Bu yuzen cooook yavastir.
      */
     public static void main(String[] args) {
 

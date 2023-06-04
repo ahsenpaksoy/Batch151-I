@@ -38,6 +38,8 @@ public class HashMap01 {
 
     }
 }
+
+    // get(key); istenen key degeri map de varsa o key'e ait value'yu, map'de yoksa null doner.
 /*
   once HashMap ile yaptik fakat alfabetik sira olsun diye TreeMap' cevirdik beoylelikle alfabetik bur siraya sahip olduk..
   Javada alfabetik sirada once buyuk harf ardindan kucuk harf gelir. Cunku buyuk harf ascii value'si kucuk harflerinkinden kucuktur.
